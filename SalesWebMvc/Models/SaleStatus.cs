@@ -7,8 +7,8 @@ namespace SalesWebMvc.Models
 {
         public enum SaleStatus
         {
-             PENDING,
-             BILLED,
-             CANCELED
-        }
+        Pending,
+        Billed,
+        Canceled
+    }
 }
