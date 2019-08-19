@@ -21,12 +21,12 @@ namespace SalesWebMvc.Data
 
         public void Seed()
         {
-            /*if( _context.Department.Any() ||
-                //_context.Seller.Any() ||
-                _context.SalesRecords.Any())
+            if( _context.Department.Any() ||
+                _context.Seller.Any() ||
+                _context.SalesRecords.Any() )
             {
                 return;// DB has been seeded
-            }*/
+            }
 
             Department d1 = new Department(1, "Computers");
             Department d2 = new Department(2, "Electronics");
@@ -83,7 +83,7 @@ namespace SalesWebMvc.Data
                 r21, r22, r23, r24, r25, r26, r27, r28, r29, r30
             );
 
-
+            _context.SaveChanges();
         }
     }
 }

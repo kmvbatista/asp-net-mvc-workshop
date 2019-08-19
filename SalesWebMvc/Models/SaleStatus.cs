@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace SalesWebMvc.Models
 {
-        public enum SaleStatus
-        {
+    public enum SaleStatus
+    {
         Pending,
         Billed,
         Canceled
